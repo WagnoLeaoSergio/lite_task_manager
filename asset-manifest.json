@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lite_task_manager/static/css/main.2a4daeaf.chunk.css",
+    "main.js": "/lite_task_manager/static/js/main.8ba26fdc.chunk.js",
+    "main.js.map": "/lite_task_manager/static/js/main.8ba26fdc.chunk.js.map",
+    "runtime-main.js": "/lite_task_manager/static/js/runtime-main.212974a8.js",
+    "runtime-main.js.map": "/lite_task_manager/static/js/runtime-main.212974a8.js.map",
+    "static/js/2.5adca91a.chunk.js": "/lite_task_manager/static/js/2.5adca91a.chunk.js",
+    "static/js/2.5adca91a.chunk.js.map": "/lite_task_manager/static/js/2.5adca91a.chunk.js.map",
+    "index.html": "/lite_task_manager/index.html",
+    "precache-manifest.b297402c183ca332e73c660584e16e29.js": "/lite_task_manager/precache-manifest.b297402c183ca332e73c660584e16e29.js",
+    "service-worker.js": "/lite_task_manager/service-worker.js",
+    "static/css/main.2a4daeaf.chunk.css.map": "/lite_task_manager/static/css/main.2a4daeaf.chunk.css.map",
+    "static/js/2.5adca91a.chunk.js.LICENSE.txt": "/lite_task_manager/static/js/2.5adca91a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.212974a8.js",
+    "static/js/2.5adca91a.chunk.js",
+    "static/css/main.2a4daeaf.chunk.css",
+    "static/js/main.8ba26fdc.chunk.js"
+  ]
+}
