@@ -8,9 +8,9 @@
     box-sizing: border-box;
 }
 
-/* body {
-    background-color: rgb(80, 80, 80);
-} */
+body {
+    background-color: #505050;
+}
 
 :root {
     font-size: 16px;
@@ -19,19 +19,20 @@
     --c1: #f2f1f7;
     --c2: #d7dadf;
     --c3: #ffffff;
-    --c4: #ffffff;
-    --c5: #d8dbdb;
+    --c4: #bbc0ce;
+    --c5: #dadfec;
 }
 
-p, h2, h3 {
+p, h2, h3, textarea, .panel-button{
     user-select: none;
+    color: #202020
 }
 
 .app-container {
     border: 1px solid #ccc;
     margin: 0 10px;
     padding: 10px;
-    background-color: var(--c1);
+    background-color: #e0e1e4;
 }
 
 header {
@@ -56,9 +57,9 @@ main {
 }
 
 .content-container, .item-container, .panel, header{
-    border: 1px solid #ccc;
+    border: 1px solid none;
     border-radius: 5px;
-    background-color: var(--c2);
+    background-color: var(--c4);
 }
 
 .content-container {
@@ -69,13 +70,14 @@ main {
 .actions {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 80vh;
+    /* margin: 10px 0; */
 }
 
 .panel {
     width: 350px;
-    height: 200px;
+    height: 250px;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -104,18 +106,18 @@ main {
 
 .add-task form input {
     font-size: 1.2rem;
-    background-color: var(--c2);
+    background-color: var(--c5);
     padding-left: 8px;
 }
 
 .panel-button {
     font-size: 1.2rem;
     transition: ease-in 0.05s;
-    background-color: var(--c2);
+    background-color: var(--c4);
 }
 
 .panel-button:hover {
-    background-color: #b4b8bd;
+    background-color: var(--c5);
 }
 
 .container {
@@ -144,7 +146,7 @@ main {
     max-width: 100%;
     padding: 5px;
     margin: 5px 0;
-    background-color: var(--c3);
+    background-color: var(--c5);
 }
 
 .item-container p {
@@ -190,8 +192,9 @@ main {
     width: 100%;
     height: 90%;
     font-size: 1.3rem;
+    margin: 5px;
     padding: 5px;
-    background-color: var(--c2);
+    background-color: var(--c5);
     border: none;
     border-radius: 5px;
 }

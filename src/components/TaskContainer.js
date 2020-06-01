@@ -14,7 +14,7 @@ function TaskContainer(props){
     }
     const taskNonChecked_style = {
         textDecorationLine: "none",
-        color: "#000"
+        color: "#3b3b3b"
     }
 
     const handleChange = (event) => {
