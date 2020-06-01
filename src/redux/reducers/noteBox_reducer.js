@@ -14,9 +14,11 @@ function noteBox_reducer(state=initialState, action) {
             }
 
         case "LOAD_NOTEBOX":
+            const appData = JSON.parse(localStorage.getItem('todoAPP'))
+            const noteboxData = appData ? appData.noteBox : ""
             return {
                 ...state,
-                noteBox: localData.noteBox
+                noteBox: noteboxData
             }
 
         default:

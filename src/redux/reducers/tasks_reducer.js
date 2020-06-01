@@ -29,9 +29,12 @@ function tasks_reducer(state=initialState, action){
             }
 
         case 'LOAD_TASKS':
+            const appData = JSON.parse(localStorage.getItem('todoAPP'))
+            const taskList = appData ? appData.appTasks : []
+        
             return {
                 ...state,
-                tasks: localData.appTasks
+                tasks: taskList
             }
 
         case 'GET_NEW_TASK_INFO':

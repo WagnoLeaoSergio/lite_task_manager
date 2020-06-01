@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import './App.css'
+import '../css/App.css'
 
 import MainContent from './MainContent'
 import Header from './Header'
