@@ -70,9 +70,10 @@ main {
 .actions {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80vh;
     /* margin: 10px 0; */
+    width: auto
 }
 
 .panel {
@@ -135,6 +136,7 @@ main {
     display: flex;
     min-width: 40%;
     height: auto;
+    justify-content: center;
 }
 
 .item-container {
@@ -145,7 +147,7 @@ main {
     min-height: 90px;
     max-width: 100%;
     padding: 5px;
-    margin: 5px 0;
+    margin: 10px 5px;
     background-color: var(--c5);
 }
 
@@ -199,16 +201,45 @@ main {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+
+    header {
+        width: 67vw;
+        margin: 0 auto;
+    }
+
     main {
         flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    .container {
+        position: relative;
+        height: 40vh;
+        width: 70vw;
     }
 
     .todo-list {
         order: 2;
+        /* min-width: 100px; */
     }
 
     .content-container {
         align-items: center;
+    }
+
+    .actions {
+        margin-top: 10px;
+        width: 66vw;
+    }
+
+    .panel {
+        width: 80%;
+    }
+
+    .add-task form input , .panel-button{
+        width: 90%;
     }
 }
